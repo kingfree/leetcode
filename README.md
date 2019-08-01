@@ -1,5 +1,5 @@
 # LeetCode in Rust
 
 ```bash
-cargo test --lib <题目名>
+cargo test --lib <题目名> -- --nocapture
 ```
