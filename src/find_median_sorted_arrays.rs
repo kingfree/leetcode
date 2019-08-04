@@ -52,10 +52,7 @@ mod tests {
             4.5
         );
         assert_eq!(
-            Solution::find_median_sorted_arrays(
-                vec![1, 3, 4, 9],
-                vec![1, 2, 3, 4, 5, 6, 7, 8, 9]
-            ),
+            Solution::find_median_sorted_arrays(vec![1, 3, 4, 9], vec![1, 2, 3, 4, 5, 6, 7, 8, 9]),
             4.0
         );
         assert_eq!(
